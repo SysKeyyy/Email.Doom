@@ -42,7 +42,7 @@ WINDOWS
 
 *pip install smtplib
 
-*python
+*python Email.Doom.py
 
 _______________________________________
 
