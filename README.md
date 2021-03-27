@@ -8,6 +8,8 @@ requirements :
 *pip3
 
 *linux distrobution or powershell Note that this works in cmd to but the colours wont work correctly.
+
+*have less secure apps enabled on sender email.
 ______________________________________
 LINUX
 
