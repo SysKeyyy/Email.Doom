@@ -20,7 +20,7 @@ class Logo():
 	print(green + logo)
 	time.sleep(0.7)
 	print(cyan + "/--------------------------------------------------------------------------------------------------------------------")
-	print("/ [[ Athur _SaWan0_, github : https://www.github.com/cudden24, Hackforums : https://hackforums.net/member.php?action=profile&uid=4940482 ]] ")
+	print("/ [[ Athur _SaWan0_, github : https://www.github.com/sswanoo, Hackforums : https://hackforums.net/member.php?action=profile&uid=4940482 ]] ")
 	print(yellow + "/--------------------------------------------------------------------------------------------------------------------")
 	print("\n")
 	print("!Type '1' for gmail bombing.")
