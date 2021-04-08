@@ -1,11 +1,10 @@
-import smtplib, ssl
-import os
-from pyfiglet import figlet_format
-import time
+import smtplib, ssl # to send mails
+import os # to get system root, to clear screen etc.
+import time # to make pauses
 # imports
 
-red = "\u001b[31m."
-green = "\u001b[32m."
+red = "\u001b[31m"
+green = "\u001b[32m"
 cyan = "\u001b[36m"
 yellow = "\u001b[33m"
 blue = "\u001b[34m"
@@ -16,26 +15,53 @@ reset_color = "\u001b[0m"
 class Logo():
 	os.system('clear')
 	os.system('cls')
-	logo = figlet_format("Email.Doom", font="ogre")
+	logo = """\
+		                __________
+                      .~###########;~.
+                     /##############;;.
+                    /######/~\/~\##;,;,.
+                   |#######\    /;;;;.,.|         \u001b[31m[[\u001b[33m Athur _SaWan0_, github : https://www.github.com/sswanoo, Hackforums : https://hackforums.net/member.php?action=profile&uid=4940482 \u001b[31m]]\u001b[32m 
+                   |#########\/%;;;;;.,.|
+          XX       |##/~~\####%;;;/~~\;,|       XX
+        XX..X      |#|  o  \##%;/  o  |.|      X..XX
+      XX.....X     |##\____/##%;\____/.,|     X.....XX
+ XXXXX.....XX      \#########/\;;;;;;,, /      XX.....XXXXX
+X |......XX%,.@      \######/%;\;;;;, /      @#%,XX......| X
+X |.....X  @#%,.@     |########;;;;,.|     @#%,.@  X.....| X
+X  \...X     @#%,.@   |# # # % ; ; ;,|   @#%,.@     X.../  X
+ X# \.X        @#%,.@                  @#%,.@        X./  #
+  ##  X          @#%,.@              @#%,.@          X   #
+, "# #X            @#%,.@          @#%,.@            X ##  
+   `###X             @#%,.@      @#%,.@             ####'
+  . ' ###              @#%.,@  @#%,.@              ###`"
+    . ";"                @#%.@#%,.@                ;"` ' .
+      '                    @#%,.@                   ,.
+      ` ,                @#%,.@  @@                `
+                          @@@  @@@
+
+                      \u001b[31m[[ EMAIL.DOOM ]]
+					  \u001b[33m
+		"""
 	print(green + logo)
 	time.sleep(0.7)
-	print(cyan + "/--------------------------------------------------------------------------------------------------------------------")
-	print("/ [[ Athur _SaWan0_, github : https://www.github.com/sswanoo, Hackforums : https://hackforums.net/member.php?action=profile&uid=4940482 ]] ")
-	print(yellow + "/--------------------------------------------------------------------------------------------------------------------")
-	print("\n")
-	print("!Type '1' for gmail bombing.")
-	print("!Type '2' for yahoo bombing.")
-	print("!Type '3' for outlook bombing.")
-	print("!Type '4' for other client.")
-	print("!Type EXIT to close the program.")
-	print("\n")
 
 
 receiver_email = input("Target Email >>")
 sender_email = input("Enter your email >>")
 password = input("Enter your password >>")	
-command = input(blue + "Email" + red + "@Doom" + white + ":")
 # mail variables
+
+print("\n")
+print(white)
+print("!Type '1' for gmail bombing.")
+print("!Type '2' for yahoo bombing.")
+print("!Type '3' for outlook bombing.")
+print("!Type '4' for other client.")
+print("!Type EXIT to close the program.")
+print("\n")
+command = input(blue + "Email" + red + "@Doom" + white + ":")
+print("\n")
+# info / user input
 
 def gmail_bomb():
 	while True:
