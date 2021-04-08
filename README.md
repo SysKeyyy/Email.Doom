@@ -1,7 +1,7 @@
 # Email.Doom
 
 
-![email doomico](https://user-images.githubusercontent.com/68533095/112713519-d9e87300-8ed5-11eb-8a52-f16afe2d3dbe.png)
+![email doomscrenshoot](https://user-images.githubusercontent.com/68533095/114061245-82171800-9896-11eb-8167-8a2b3c10d44e.png)
 
 
 A email bomber with gmail, yahoo and outlook bombing plus the option to add your own email client.
@@ -33,8 +33,6 @@ How to install :
 
 *python3 Email.Doom.py
 
-IF YOU GET AN ERROR WITH FONT NOT FOUND DELETE THESE TWO LINES 	logo = figlet_format("Email.Doom", font="ogre")
-	print(green + logo).
 ________________________________________
 WINDOWS
 
@@ -53,4 +51,10 @@ WINDOWS
 
 _______________________________________
 
-# WARNING I WILL NOT BE REPONSIBLE ON ANY OF YOUR ACTIONS #
+! WARNING I WILL NOT BE REPONSIBLE ON ANY OF YOUR ACTIONS !
+
+# Updates made
+- better linux support
+- new logo
+- beter visuals
+- easier to understand
